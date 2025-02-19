@@ -59,3 +59,4 @@ async def crearcuenta(request: Request):
         "habitaciones": habitaciones,
         "huespedes": huespedes
     })
+#uvicorn main:app --host 0.0.0.0 --reload
